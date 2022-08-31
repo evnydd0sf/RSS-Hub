@@ -723,9 +723,6 @@
     "/csu/cse/:type?": [
         "j1g5awi"
     ],
-    "/cts/:category": [
-        "miles170"
-    ],
     "/dahecube/:type?": [
         "linbuxiao"
     ],
@@ -1416,10 +1413,6 @@
     ],
     "/gov/xuzhou/hrss/:category?": [
         "nczitzk"
-    ],
-    "/greasyfork/:language/:domain?": [
-        "imlonghao",
-        "miles170"
     ],
     "/guancha/:category?": [
         "nczitzk",
@@ -2196,9 +2189,6 @@
     "/lovelive-anime/news/:option?": [
         "axojhf"
     ],
-    "/lovelive-anime/topics/:abbr/:category?": [
-        "axojhf"
-    ],
     "/lvv2/news/:channel/:sort?": [
         "Fatpandac"
     ],
@@ -2504,25 +2494,19 @@
     "/nua/sxw/:type": [
         "evnydd0sf"
     ],
-    "/nuaa/cae/:type/:getDescription?": [
-        "Xm798"
-    ],
     "/nuaa/cs/:type/:getDescription?": [
         "LogicJake",
         "Seiry",
-        "qrzbing",
-        "Xm798"
+        "qrzbing"
     ],
     "/nuaa/jwc/:type/:getDescription?": [
         "arcosx",
         "Seiry",
-        "qrzbing",
-        "Xm798"
+        "qrzbing"
     ],
-    "/nuaa/yjsy/:type/:getDescription?": [
+    "/nuaa/yjsy/:type?": [
         "junfengP",
-        "Seiry",
-        "Xm798"
+        "Seiry"
     ],
     "/nuist/bulletin/:category?": [
         "gylidian"
@@ -2702,24 +2686,6 @@
     "/pincong/topic/:topic": [
         "zphw"
     ],
-    "/pixiv/ranking/:mode/:date?": [
-        "EYHN"
-    ],
-    "/pixiv/search/:keyword/:order?/:mode?": [
-        "DIYgod"
-    ],
-    "/pixiv/user/bookmarks/:id": [
-        "EYHN"
-    ],
-    "/pixiv/user/illustfollows": [
-        "ClarkeCheng"
-    ],
-    "/pixiv/user/novels/:id": [
-        "TonyRL"
-    ],
-    "/pixiv/user/:id": [
-        "DIYgod"
-    ],
     "/pku/admission/sszs": [
         "pkuyjs"
     ],
@@ -2831,21 +2797,6 @@
     ],
     "/qbittorrent/news": [
         "TonyRL"
-    ],
-    "/qidian/author/:id": [
-        "miles170"
-    ],
-    "/qidian/chapter/:id": [
-        "Chingyat"
-    ],
-    "/qidian/forum/:id": [
-        "Chingyat"
-    ],
-    "/qidian/free/:type?": [
-        "LogicJake"
-    ],
-    "/qidian/free-next/:type?": [
-        "LogicJake"
     ],
     "/qidiantu/:category?/:type?/:is_history?": [
         "nczitzk"
@@ -3459,9 +3410,6 @@
     "/ucas/job/:type?": [
         "Fatpandac"
     ],
-    "/udn/news/breakingnews/:id": [
-        "miles170"
-    ],
     "/uibe/hr/:category?/:type?": [
         "nczitzk"
     ],
@@ -4033,6 +3981,11 @@
     "/mzitu/category/:category": [],
     "/mzitu/post/:id": [],
     "/mzitu/tag/:tag": [],
+    "/pixiv/user/bookmarks/:id": [],
+    "/pixiv/user/illustfollows": [],
+    "/pixiv/user/:id": [],
+    "/pixiv/ranking/:mode/:date?": [],
+    "/pixiv/search/:keyword/:order?/:mode?": [],
     "/fanbox/:user?": [],
     "/plainlaw/archives": [],
     "/dockone/weekly": [],
@@ -4110,6 +4063,10 @@
     "/mi/youpin/new/:sort?": [],
     "/miui/:device/:type?/:region?": [],
     "/mi/bbs/board/:boardId": [],
+    "/qidian/chapter/:id": [],
+    "/qidian/forum/:id": [],
+    "/qidian/free/:type?": [],
+    "/qidian/free-next/:type?": [],
     "/zongheng/chapter/:id": [],
     "/ciweimao/chapter/:id": [],
     "/namoc/announcement": [],
@@ -4121,6 +4078,7 @@
     "/un/scveto": [],
     "/egsea/flash": [],
     "/xuangubao/subject/:subject_id": [],
+    "/greasyfork/:language/:domain?": [],
     "/gwern/:category": [],
     "/linkedkeeper/:type/:id?": [],
     "/technologyreview": [],
