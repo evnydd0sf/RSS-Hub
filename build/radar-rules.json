@@ -458,15 +458,6 @@
           "/"
         ],
         "target": "/8world/:category?"
-      },
-      {
-        "title": "标签",
-        "docs": "https://docs.rsshub.app/new-media.html#_8-shi-jie-biao-qian",
-        "source": [
-          "/topic/:id",
-          "/"
-        ],
-        "target": "/8world/topic/:id"
       }
     ]
   },
@@ -844,90 +835,6 @@
           "/s/:share_id/folder/:parent_file_id"
         ],
         "target": "/aliyundrive/files/:share_id/:parent_file_id?"
-      }
-    ]
-  },
-  "aljazeera.com": {
-    "_name": "Aljazeera 半岛电视台",
-    ".": [
-      {
-        "title": "News",
-        "docs": "https://docs.rsshub.app/traditional-media.html#aljazeera-ban-dao-dian-shi-tai-xin-wen",
-        "source": [
-          "/:category",
-          "/"
-        ],
-        "target": "/aljazeera/english/:category"
-      },
-      {
-        "title": "Tag",
-        "docs": "https://docs.rsshub.app/traditional-media.html#aljazeera-ban-dao-dian-shi-tai-biao-qian",
-        "source": [
-          "/tag/:id",
-          "/"
-        ],
-        "target": "/aljazeera/english/tag/:id"
-      },
-      {
-        "title": "Official RSS",
-        "docs": "https://docs.rsshub.app/traditional-media.html#aljazeera-ban-dao-dian-shi-tai-guan-fang-rss",
-        "source": [
-          "/xml/rss/all.xml",
-          "/"
-        ],
-        "target": "/aljazeera/english/rss"
-      }
-    ]
-  },
-  "aljazeera.net": {
-    "_name": "Aljazeera 半岛电视台",
-    ".": [
-      {
-        "title": "News",
-        "docs": "https://docs.rsshub.app/traditional-media.html#aljazeera-ban-dao-dian-shi-tai-xin-wen",
-        "source": [
-          "/:category",
-          "/"
-        ],
-        "target": "/aljazeera/arbric/:category"
-      },
-      {
-        "title": "Tag",
-        "docs": "https://docs.rsshub.app/traditional-media.html#aljazeera-ban-dao-dian-shi-tai-biao-qian",
-        "source": [
-          "/tag/:id",
-          "/"
-        ],
-        "target": "/aljazeera/arbric/tag/:id"
-      },
-      {
-        "title": "Official RSS",
-        "docs": "https://docs.rsshub.app/traditional-media.html#aljazeera-ban-dao-dian-shi-tai-guan-fang-rss",
-        "source": [
-          "/rss",
-          "/"
-        ],
-        "target": "/aljazeera/arbric/rss"
-      }
-    ],
-    "chinese": [
-      {
-        "title": "新闻",
-        "docs": "https://docs.rsshub.app/traditional-media.html#aljazeera-ban-dao-dian-shi-tai-xin-wen",
-        "source": [
-          "/:category",
-          "/"
-        ],
-        "target": "/aljazeera/chinese/:category"
-      },
-      {
-        "title": "标签",
-        "docs": "https://docs.rsshub.app/traditional-media.html#aljazeera-ban-dao-dian-shi-tai-biao-qian",
-        "source": [
-          "/tag/:id",
-          "/"
-        ],
-        "target": "/aljazeera/chinese/tag/:id"
       }
     ]
   },
@@ -3139,19 +3046,6 @@
         "title": "学术活动",
         "docs": "https://docs.rsshub.app/university.html#chong-qing-wen-li-xue-yuan",
         "source": "/:type"
-      }
-    ]
-  },
-  "creative-comic.tw": {
-    "_name": "CCC 創作集",
-    ".": [
-      {
-        "title": "漫畫",
-        "docs": "https://docs.rsshub.app/anime.html#ccc-chuang-zuo-ji",
-        "source": [
-          "/book/:id/*"
-        ],
-        "target": "/creative-comic/:id"
       }
     ]
   },
@@ -5552,18 +5446,6 @@
         "docs": "https://docs.rsshub.app/government.html#bei-jing-shi-wei-sheng-jian-kang-wei-yuan-hui",
         "source": "/xwzx_20031/:caty",
         "target": "/gov/beijing/mhc/:caty"
-      }
-    ]
-  },
-  "bphc.com.cn": {
-    "_name": "北京保障房中心有限公司",
-    "gycpt": [
-      {
-        "title": "北京市共有产权住房租赁服务平台",
-        "docs": "https://docs.rsshub.app/government.html#bei-jing-shi-bao-zhang-fang-zhong-xin-you-xian-gong-si",
-        "source": [
-          "/*"
-        ]
       }
     ]
   },
@@ -12826,28 +12708,10 @@
     "_name": "云听",
     ".": [
       {
-        "title": "专辑",
-        "docs": "https://docs.rsshub.app/multimedia.html#yun-ting-zhuan-ji",
+        "title": "电台节目",
+        "docs": "https://docs.rsshub.app/multimedia.html#yun-ting-dian-tai-jie-mu",
         "source": [
           "/pc-portal/sanji/detail.html",
-          "/share/albumDetail",
-          "/"
-        ]
-      },
-      {
-        "title": "节目",
-        "docs": "https://docs.rsshub.app/multimedia.html#yun-ting-jie-mu",
-        "source": [
-          "/pc-portal/sanji/detail.html",
-          "/share/albumDetail",
-          "/"
-        ]
-      },
-      {
-        "title": "直播",
-        "docs": "https://docs.rsshub.app/multimedia.html#yun-ting-zhi-bo",
-        "source": [
-          "/pc-portal/sanji/zhibo_2.html",
           "/"
         ]
       }
@@ -14213,22 +14077,6 @@
           "/"
         ],
         "target": ""
-      },
-      {
-        "title": "信息学院",
-        "docs": "https://docs.rsshub.app/university.html#xi-nan-shi-you-da-xue",
-        "source": [
-          "/"
-        ],
-        "target": ""
-      },
-      {
-        "title": "财经学院",
-        "docs": "https://docs.rsshub.app/university.html#xi-nan-shi-you-da-xue",
-        "source": [
-          "/"
-        ],
-        "target": ""
       }
     ]
   },
@@ -14702,20 +14550,6 @@
           "/"
         ],
         "target": "/thepaper/factpaper/:status"
-      }
-    ]
-  },
-  "theverge.com": {
-    "_name": "The Verge",
-    ".": [
-      {
-        "title": "The Verge",
-        "docs": "https://docs.rsshub.app/new-media.html#the-verge",
-        "source": [
-          "/rss/index.xml",
-          "/"
-        ],
-        "target": "/theverge"
       }
     ]
   },
@@ -15352,31 +15186,8 @@
       {
         "title": "即時新聞",
         "docs": "https://docs.rsshub.app/new-media.html#lian-he-xin-wen-wang-ji-shi-xin-wen",
-        "source": [
-          "/news/breaknews/1/:id",
-          "/"
-        ],
+        "source": "/news/breaknews/1/:id",
         "target": "/udn/news/breakingnews/:id"
-      }
-    ],
-    "global": [
-      {
-        "title": "轉角國際 - 首頁",
-        "docs": "https://docs.rsshub.app/new-media.html#lian-he-xin-wen-wang-zhuan-jiao-guo-ji-shou-ye",
-        "source": [
-          "/global_vision/index/:category",
-          "/"
-        ],
-        "target": "/udn/global/:category?"
-      },
-      {
-        "title": "轉角國際 - 標籤",
-        "docs": "https://docs.rsshub.app/new-media.html#lian-he-xin-wen-wang-zhuan-jiao-guo-ji-biao-qian",
-        "source": [
-          "/search/tagging/1020/:tag",
-          "/"
-        ],
-        "target": "/udn/global/tag/:tag?"
       }
     ]
   },
@@ -16408,14 +16219,6 @@
     "_name": "雪球",
     ".": [
       {
-        "title": "今日话题",
-        "docs": "https://docs.rsshub.app/finance.html#xue-qiu",
-        "source": [
-          "/today"
-        ],
-        "target": "/xueqiu/today"
-      },
-      {
         "title": "用户动态",
         "docs": "https://docs.rsshub.app/finance.html#xue-qiu",
         "source": [
@@ -17076,19 +16879,6 @@
           "/:category"
         ],
         "target": "/zhibo8/more/:category"
-      }
-    ]
-  },
-  "zhitongcaijing.com": {
-    "_name": "智通财经",
-    ".": [
-      {
-        "title": "资讯",
-        "docs": "https://docs.rsshub.app/finance.html#zhi-tong-cai-jing-zi-xun",
-        "source": [
-          "/:category",
-          "/"
-        ]
       }
     ]
   },
