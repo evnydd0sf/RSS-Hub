@@ -829,6 +829,24 @@
     "/ddosi/category/:category": [
         "XinRoom"
     ],
+    "/dedao/figure": [
+        "nczitzk"
+    ],
+    "/dedao/knowledge/:topic?/:type?": [
+        "nczitzk"
+    ],
+    "/dedao/list/:category?": [
+        "nczitzk"
+    ],
+    "/dedao/news": [
+        "nczitzk"
+    ],
+    "/dedao/user/:id/:type?": [
+        "nczitzk"
+    ],
+    "/dedao/video": [
+        "nczitzk"
+    ],
     "/deepmind/blog": [
         "nczitzk",
         "TonyRL"
@@ -3759,9 +3777,6 @@
     "/uibe/hr/:category?/:type?": [
         "nczitzk"
     ],
-    "/uisdc/index/:type": [
-        "evnydd0sf"
-    ],
     "/ulapia/reports/:category?": [
         "Fatpandac"
     ],
@@ -5504,9 +5519,6 @@
     "/grandchallenge/challenges": [],
     "/nwpu/:column": [],
     "/us/supremecourt/argument_audio/:year?": [],
-    "/dedao/list/:caty?": [],
-    "/dedao/knowledge/:topic?/:type?": [],
-    "/dedao/:caty?": [],
     "/mitbbs/:caty?": [],
     "/jiazhen108": [],
     "/instagram/:category/:key": [],
