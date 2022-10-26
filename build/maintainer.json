@@ -2811,6 +2811,9 @@
     "/nua/index/:type": [
         "evnydd0sf"
     ],
+    "/nua/lib/:type": [
+        "evnydd0sf"
+    ],
     "/nua/sxw/:type": [
         "evnydd0sf"
     ],
